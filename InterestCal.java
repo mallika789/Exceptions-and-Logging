@@ -1,4 +1,4 @@
-package assignment5;
+package epamassignment5;
 
 public class InterestCal {
 	public double Simple_Interest(double p,double r,double t){
