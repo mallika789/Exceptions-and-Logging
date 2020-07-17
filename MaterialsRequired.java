@@ -1,6 +1,6 @@
-package assignment5;
+package epamassignment5;
 
-public class materials_required {
+public class MaterialsRequired {
 	public double std_materials(double ft){
  	   return ft*1200;
     }
