@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public class ApplicationLogger {
 
-	private static final Logger LOGGER = LogManager.getLogger(Application_logger.class);
+	private static final Logger LOGGER = LogManager.getLogger(ApplicationLogger.class);
 	public static void main( String[] args )
     {
     	Scanner sc = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class ApplicationLogger {
     		LOGGER.debug("**Mention a type of House you want to have**");
     		sc.nextLine();
     		int n=sc.nextInt();
-    		materials_required ob=new materials_required();
+    		MaterialsRequired ob=new MaterialsRequired();
     		double res;
     		switch(n){
  	    		case 1:res=ob.std_materials(ft);
@@ -51,7 +51,7 @@ public class ApplicationLogger {
         	t = sc.nextFloat();
             LOGGER.debug("Type s for SimpleInterest and c for CompoundInterest");
             char ch = sc.next().charAt(0);
-            Interest_cal obi=new Interest_cal();
+            InterestCal obi=new InterestCal();
             double interest=0;
             switch(ch){
 	    		case 1:interest=obi.Simple_Interest(p,r,t);
