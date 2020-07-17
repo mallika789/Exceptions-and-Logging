@@ -1,4 +1,4 @@
-package assignment5;
+package epamassignment5;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-public class Application_logger {
+public class ApplicationLogger {
 
 	private static final Logger LOGGER = LogManager.getLogger(Application_logger.class);
 	public static void main( String[] args )
